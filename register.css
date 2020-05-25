@@ -8,24 +8,13 @@ a{
   text-decoration: none;
   font-size: 200%;
 }
-header{
-  font-size: 200%;
-  /*text-align: center;*/
-  margin: 20px;
-  border-left-style: solid;
-  border-bottom-style: solid;
-  border-radius: 8px;
-  border-color: #ff8080;
+.cont{
+  display: flex;
+  float: right;
+  margin: 0;
+  padding-right: 15px;
 }
-.mainform:not(.sub){
-  margin: 10px;
-  column-count: 2;
-}
-sub{
-  float: left;
-}
-input{
-  border-radius: 8px;
-  font-size: 200%;
-  margin: 10px auto 10px auto;
+form{
+  padding-left: 20px;
+  padding-right: 20px;
 }

@@ -1,6 +1,15 @@
 .navbar1{
   font-size: 25px;
+  height: 60px;
+  width: 950px;
+  float:right;
 }
+h2{
+  display:inline;
+  text-shadow:5px 5px 10px #eee6ff;
+  color: #854dff;
+}
+/*register&contact*/
 ul{
   display:flex;
   list-style: none;
@@ -10,6 +19,7 @@ ul{
 li{
   padding-left: 10px;
   padding-right: 10px;
+  padding-top:10px;
 }
 a{
   text-decoration: none;

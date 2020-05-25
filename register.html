@@ -2,44 +2,81 @@
 <html>
   <head>
     <title>Register</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="register.css">
   </head>
   <body>
     <nav>
       <img src="photos/logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
       <a href="index1.html">Home</a>
-      <a href="contact.html">Contact</a>
+      <a class="cont" href="contact.html">Contact</a>
     </nav>
-    <header>Personal Info</header>
-    <div class="mainform">
-      <form action="bouncer.php" method="get">
-        <div class="fn">
-          <label for="FirstName"></label>
-          <input type="text" name="FirstName" placeholder="First Name">
+    <form class="needs-validation" novalidate>
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationTooltip01">First name</label>
+          <input type="text" class="form-control" id="validationTooltip01" value="" required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+        </div><!--class="col-md-4 mb-3"-->
+        <div class="col-md-4 mb-3">
+          <label for="validationTooltip02">Last name</label>
+          <input type="text" class="form-control" id="validationTooltip02" value="" required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+        </div><!--class="col-md-4 mb-3"-->
+        <div class="col-md-4 mb-3">
+          <label for="validationTooltipUsername">Username</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+            </div>
+            <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+            <div class="invalid-tooltip">
+              Please choose a unique and valid username.
+            </div>
+          </div><!--class="input-group"-->
+        </div><!--class="col-md-4 mb-3"-->
+      </div> <!--class="form-row"-->
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="validationTooltip03">City</label>
+          <input type="text" class="form-control" id="validationTooltip03" required>
+          <div class="invalid-tooltip">
+            Please provide a valid city.
+          </div>
         </div>
-        <div class="ln">
-          <label for="LastName"></label>
-          <input type="text" name="LastName" placeholder="Last Name">
+        <div class="col-md-3 mb-3">
+          <label for="validationTooltip04">State</label>
+          <select class="custom-select" id="validationTooltip04" required>
+            <option selected disabled value="">Choose...</option>
+            <option value="British Columbia">British Columbia</option>
+            <option value="Alberta">Alberta</option>
+            <option value="Saskatchewan">Saskatchewan</option>
+            <option value="Manitoba">Manitoba</option>
+            <option value="Ontario">Ontario</option>
+            <option value="Quebec">Quebec</option>
+            <option value="New Brunswick">New Brunswick</option>
+            <option value="Nova Scotia">Nova Scotia</option>
+            <option value="Prince Edward Island">Prince Edward Island</option>
+            <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+          </select>
+          <div class="invalid-tooltip">
+            Please select a valid state.
+          </div>
         </div>
-        <div class="em">
-          <label for="E-mail"></label>
-          <input type="email" name="E-mail" placeholder="E-mail">
+        <div class="col-md-3 mb-3">
+          <label for="validationTooltip05">Zip</label>
+          <input type="text" class="form-control" id="validationTooltip05" required>
+          <div class="invalid-tooltip">
+            Please provide a valid zip.
+          </div>
         </div>
-        <div class="pw">
-          <label for="Password"></label>
-          <input type="password" name="Password" placeholder="Password">
-        </div>
-        <div class="ad">
-          <label for="address"></label>
-          <input type="text" name="address" placeholder="Address">
-        </div>
-
-        <div class="sub">
-          <input type="submit" name="confirm">
-        </div>
-
-      </form>
-    </div>
+      </div>
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </form>
     <footer>
 			<p style="text-align: center;"> &copy; copyright 2020</p>
 		</footer>
