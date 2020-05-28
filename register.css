@@ -1,7 +1,10 @@
 html{
-  background-image: url("photos/background.jpg");
+  background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
+}
+nav{
+  background-color: initial;
 }
 a{
   padding-left: 10px;
@@ -9,7 +12,7 @@ a{
   font-size: 200%;
 }
 .cont{
-  display: flex;
+  /* display: flex; */
   float: right;
   margin: 0;
   padding-right: 15px;
@@ -17,4 +20,8 @@ a{
 form{
   padding-left: 20px;
   padding-right: 20px;
+  background-color: transparent;
+}
+footer{
+  align-content: flex-end;
 }
