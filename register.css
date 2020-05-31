@@ -1,18 +1,26 @@
-html{
-  background-image: url("");
+body{
+  background-image: url("photos/second.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 nav{
   background-color: initial;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  background: transparent;
 }
 a{
   padding-left: 10px;
   text-decoration: none;
-  font-size: 200%;
+  font-size: 150%;
+  color: #0052cc;
+}
+img{
+  border-radius: 80%;
+  width:100px;
+   height:100px;
 }
 .cont{
-  /* display: flex; */
   float: right;
   margin: 0;
   padding-right: 15px;
@@ -24,4 +32,5 @@ form{
 }
 footer{
   align-content: flex-end;
+   padding-bottom: 0;
 }

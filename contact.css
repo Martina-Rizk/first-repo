@@ -1,0 +1,52 @@
+body{
+  background-image: url("photos/second.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+nav{
+  background-color: initial;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+a{
+  padding-top: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 150%;
+  color: #0052cc;
+}
+.reg{
+  float: right;
+  margin: 0;
+  padding-right: 15px;
+}
+.container {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  text-align: left;
+  margin-left: 0;
+}
+img{
+  border-radius: 80%;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.checked {
+  color: yellow;
+}
+.zoom{
+  transition: all 1s;
+}
+.zoom:hover{
+  transform:scale(1.1);
+}
+.info{
+  font-weight: bold;
+  /* font-size: 110%; */
+}
