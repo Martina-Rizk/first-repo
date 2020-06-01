@@ -7,12 +7,15 @@ body{
 }
 h2{
   display:inline;
+  font-family: serif;
+  font-weight: bold;
   text-shadow:5px 5px 10px #eee6ff;
   color: #854dff;
 }
 a{
   text-decoration: none;
-  font-size: 150%;
+  /* font-weight: bold; */
+  font-size: 170%;
   padding: 10px;
   color: #0052cc;
 }

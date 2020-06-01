@@ -14,7 +14,8 @@ a{
   padding-top: 10px;
   padding-left: 10px;
   text-decoration: none;
-  font-size: 150%;
+  font-weight: bold;
+  font-size: 170%;
   color: #0052cc;
 }
 .reg{
@@ -48,5 +49,7 @@ img{
 }
 .info{
   font-weight: bold;
-  /* font-size: 110%; */
+}
+.table{
+  width: 1650px;
 }
